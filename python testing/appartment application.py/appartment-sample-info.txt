@@ -1,0 +1,7 @@
+appartment_name = "3 Room Appartment"
+appartment_pro = "that it has a big living room area and space for home office working"
+appartment_address = "xyz"
+
+
+appartment_landlord_name = "Meier"
+appartment_landlord_gender_male = True
