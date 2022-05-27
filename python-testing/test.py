@@ -1,12 +1,10 @@
-name = "Lil Bastard"
-home_location = "California, Las Vegas"
-age = 28
-birthdate = 1994
-telephone_number = "02453 24534"
-email = "your.email.here@hostorsth.wtf"
+info =  True
+a = "null"
 
-print("My Name is", name, ".")
-print("I was born", birthdate, "and I'm now", age, "Years old.")
-print("I'm from " + home_location)
+if info == True:
+    a = True
 
-print("\r\nYou can call me at", telephone_number, "or contact me over my E-Mail " + email)
+if a == True:
+    print("ja man kann den typ von variabeln in einen program von string zu integer ändern")
+else:
+    print("neee")

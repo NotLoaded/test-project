@@ -44,3 +44,6 @@ print("My Name is", my_name, "and I'm a", my_age, "Years old,", about_me_workpla
 print("I'm applying for the", appartment_name, "in", appartment_address, "." + "\r\nWhat I really like about this Appartment is", appartment_pro + ".")
 print("I'm looking forward to hearing from you.")
 print("Your's", my_name + ".")
+
+
+input("To close press a button of your choice.")
