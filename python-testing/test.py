@@ -1,10 +1,8 @@
-info =  True
-a = "null"
+from turtle import clear
 
-if info == True:
-    a = True
 
-if a == True:
-    print("ja man kann den typ von variabeln in einen program von string zu integer ändern")
-else:
-    print("neee")
+print("lol")
+a = input("sach ma was")
+print(chr(27) + "[2J")
+
+a = input("sach wieder was")
