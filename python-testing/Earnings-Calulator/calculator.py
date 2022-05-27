@@ -1,3 +1,7 @@
+import ctypes
+ctypes.windll.kernel32.SetConsoleTitleW("Is your Boss paying you enough? - Calculate your earnings and time wasted!")
+
+
 # Default Varialbles used for the calculator selection.
 
 mode = "null"
@@ -14,7 +18,7 @@ float(earnings_pm)
 earnings_py = 0         # Used for storing the earnings per year.
 float(earnings_py)
 
-hpmt = 1.02
+hpmt = 0
 
 hpd = 0                 # Used for storing how many days you are working per day.
 use_hpd = False         # Used to decide if you are using hpd.
@@ -122,6 +126,8 @@ if mode == "m":         # Monthly Salary Mode
     print("Calculated earnings per month:", earnings_pm)
     print("Calculated earnings per year:", earnings_py)
 
+    end = input("Press any key to exit.")
+
 
 
 elif mode == "h":       # Hourly Salary Mode
@@ -195,3 +201,6 @@ elif mode == "h":       # Hourly Salary Mode
     print("Calculated earnings per week:", earnings_pw)
     print("Calculated earnings per month:", earnings_pm)
     print("Calculated earnings per year:", earnings_py)
+
+    end = input("Press any key to exit.")
+
