@@ -74,14 +74,14 @@ html_img_sd2 = '''">
 '''
 
 
-html_t = "Pictures"
+html_t = "HDF = Halt die fresse"
 
 
 img_cw = "400px"
-img_ch = "150px"
-img_1 = "img/1.png"
+img_ch = "400px"
+img_1 = "img/1.PNG"
 img_2 = "img/2.png"
-img_3 = "img/3.png"
+img_3 = "img/3.jpg"
 
 
 
